@@ -410,7 +410,7 @@ sudo ip netns exec gwB ip route
 
 截图：
 
-![wg_routes](wg_routes.png)
+![alt text](wg_routes.png)
 
 ---
 
@@ -462,7 +462,7 @@ sudo ip netns exec siteA ping -c 3 10.2.0.2
 
 截图：
 
-![baseline](baseline.png)
+![alt text](baseline.png)
 
 ---
 
@@ -611,7 +611,7 @@ sudo ip netns exec gwB iptables -L FORWARD -n -v --line-numbers
 
 截图：
 
-![s2s_rules](s2s_rules.png)
+![alt text](s2s_rules.png)
 
 ---
 
@@ -671,9 +671,9 @@ sudo journalctl -k --grep "VPN-S2S-DENY" --no-pager
 
 截图：
 
-![policy_test](policy_test.png)
+![alt text](policy_test.png)
+![alt text](s2s_log.png)
 
-![s2s_log](s2s_log.png)
 
 ---
 
@@ -771,7 +771,7 @@ sudo ip netns exec siteA curl --max-time 3 http://10.2.0.2:8080/
 
 截图：
 
-![tcpdump_compare](tcpdump_compare.png)
+![alt text](tcpdump_compare.png)
 
 ---
 
